@@ -1,0 +1,17 @@
+20/05/2009   ; 2:00 ; Estudar ; Estudar o que deveria ser feito no trabalho 3
+
+21/05/2009   ; 0:40 ; Projetar ; Projetamos como seria implementado o trabalho, dividimos as tarefas.
+
+22/03/2009   ; 1:40 ; especificar modulo e  especificar as funções  ; especifiquei o modulo jogo, criando as 
+		     funções criarBaralho e distribuir cartas
+
+24/05/2009   ; 1:30 ; especificar as funções codificar módulo ; Foram decididas quais funções compoem o modulo
+		     jogo e então implementadas as de movimentação das cartas na sequencias do jogo
+
+25/05/2009   ; 2:30 ; codificar módulo ; foram criadas funções de manipulação do jogo corrente, como criar jogo
+		     carregar ou gravar
+
+02/06/09 ; 4:00 ;  projetar ; criamos a .lib para armenezar modulos do trabaho 2 e colocamos ela linkada ao
+		     modulo de jogo
+
+05/06/09 ; 1:50 ; projetar  ; Foi feita a documentação completa do trabalho e verificada sua funcionalidade

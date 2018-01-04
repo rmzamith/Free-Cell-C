@@ -1,0 +1,12 @@
+20/05/09 ; 2h40 ; estudar e  especificar as funções  ; foi esrtudada a estruturação do trabalho 3
+22/05/09 ; 1h30 ; projetar e codificar módulo ; foi realizado a estruturação mais especificado trabalho 
+ 		e codificação do modulo jogo, parte de criarBaralho, Distribuir cartas e inicializar jogo;
+24/05/09 ; 4h20 ;  projetar e codificar módulo ; codificamos o modulo jogo continuando as funções de inicialização
+		e possibilidade de sair do jogo ou movimentar cartas, foi implimentada também a parte de 
+		movimentação de cartas no jogo;
+25/05/09 ; 2:30 ; projetar, codificar módulo e  revisar código do módulo ; Alguns erros foram consertados, a parte
+		de movimentação foi finalizada e começamos a planejar a parte de gravação e carregamento de arquivos.
+01/06/09 ; 1:40 ; projetar, codificar módulo e  revisar código do módulo ; Alguns erros foram consertados o jogo foi
+		finalizado com poucos erros.
+02/06/09 ; 2:00 ;  projetar ; Foi criada a .lib e trabalho foi finalizado rodando com biblioteca.
+05/06/09 ; 1:50 ; projetar  ; criação dos .bat e finalização do projeto para entrega do trabalho concluida.

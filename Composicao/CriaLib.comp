@@ -1,0 +1,26 @@
+# Composicao do programa de teste para o trabalho 3
+
+[Diretorios]
+
+Nome        =  CriaLib
+PathDefault =  ..\CodigoFonte
+err         =  ..\Resultados
+
+[Modulos]
+Embaralhamento
+Espaco_Extra
+Lista
+Sequencia_Ordenada
+Sequencia_Visivel
+Baralho
+
+[Link]
+    cd $(Fobj)
+    LIB $(L) @$(NOME).build >> $(Ferr)\$(NOME).err
+
+[BuildInicio]
+/OUT:"..\CodigoFonte\Paciencia.lib"
+/INCREMENTAL:NO
+/MACHINE:IX86
+
+[Fim]

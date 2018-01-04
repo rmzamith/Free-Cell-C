@@ -1,0 +1,63 @@
+Trabalho 3 de Programação Modular (INF1301)
+
+Professor: Flavio Bevilacqua
+
+Alunos:
+Raphael Zamith rmzamith@gmail.com
+Nicole Madruga, nicole_madruga@hotmail.com
+
+Instalação:
+
+	1 . Instale (dezipe) o arquivo "INF1301-Trab03-rznm.zip" para o diretório desejado.
+
+Instruções de uso:
+
+	1 . Abra um prompt de comando digitando cmd.exe no executar e lá execute algumas dos seguintes arquivos:
+
+		- GeraMake <NomeDiretiva> : 	Cria as diretivas necessarias para compilacao. Note que antes de compilar
+					     é necessario criar os scripts de make através desse bat.
+					     Use "GeraMake CriaLib" para gerar os arquivos necessarios para compilacao da biblioteca.
+					     Use "GeraMake Paciencia" para gerar os arquivos necessarios para compialacao do jogo.
+					     Use "GeraMake tudo" para gerar tudo.
+
+
+		- Compila <NomeConstruto> [o] :    Compila o construto. Use "compila tudo" para compilar tudo.
+					    Use "Compila CriaLib" para gerar a biblioteca necessaria para compilacao do jogo.
+					    Use "Compila Paciencia" para compilar o contruto do jogo de paciencia. 
+					    O argumento [o] pode ser usado para otimização.
+
+		- Tudo.bat:    Compila todos os arquivos do programa. É necessario que o ambiente esteja inicializado 
+			       para a plataforma de compilação desejada, procure o batch vsvars32.bat no diretório
+			       common\tools da plataforma de compilação a ser utilizada ("visual studio"\vc) e o execute. 
+			       Note que isto terá que ser realizado sempre que uma nova janela de linha de comando for aberta.
+			       Por esta razão é conveniente ter uma versão local deste batch.	       
+		
+
+
+
+		- Paciencia.exe:	Abre o jogo de Paciencia Free Cell. Recomenda-se que o cmd tenha uma altura grande
+					de Buffer (500 é um bom número). Para mudar a altura de buffer da tela, abra o jogo
+					e na barra do cmd clique com o botão direito, e em seguida em propriedades.
+					Em propriedades, abra a aba layout e la altere o tamanho a altura do buffer.
+					Para maior comodidade, ajustar o tamanho da janela para a maior possivel.
+					Para ajustar o tamanho da janela, altere o tamanho da altura da janela na mesma
+					aba em que se altera o tamanho do buffer da janela.
+
+					O jogo tem um menu que possui todas as ações possiveis no jogo, como:
+						- Novo Jogo - Cria um novo jogo.
+						- Sair do Jogo - Fecha o jogo.
+						- Gravar Jogo - Salva o jogo corrente. O jogo corrente é salvo em um arquivo
+								.txt e fica no diretorio local aonde esta o jogo.
+						- Carregar Jogo - Carrega um jogo salvo, é necessario que o arquivo .txt do
+								  jogo salvo esteja no diretorio local do jogo.
+						- Mover Carta - Move uma carta de acordo com as regras de Paciencia Free Cell.
+								Caso não seja possivel o movimento, sera notificado ao jogador.
+						- Legenda - Exibe a legenda para ajuda do jogo.
+ 
+
+Arquivos:
+		- Os arquivos *.err podem ser encontrados na pasta Resultados.
+		- Os arquivos de definição, .h, de implementação, .c, e as bibliotecas, .lib, na pasta CodigoFonte.
+		- Os arquivos .parm e .make necessarios para compilacao, podem ser encontrados em Composicao
+		- Os arquivos .build, .list, .make e .obj, criados na compilação, estarão na pasta Composicao, assim que criados.
+		- Os arquivos referentes a documentação da arquitetura do programa, requisitos e modelagem estão na pasta Documentos

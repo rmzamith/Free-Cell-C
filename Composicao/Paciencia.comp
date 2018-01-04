@@ -1,0 +1,20 @@
+# Composicao do programa de teste para o trabalho 2
+
+[Diretorios]
+
+Nome        =  Paciencia
+PathDefault =  ..\CodigoFonte
+err         =  ..\Resultados
+
+[Modulos]
+Jogo
+
+[BuildInicio]
+/OUT:"..\Paciencia.exe"
+/INCREMENTAL:NO
+/MACHINE:IX86
+
+[BuildFim]
+"..\CodigoFonte\Paciencia.lib"
+
+[Fim]
